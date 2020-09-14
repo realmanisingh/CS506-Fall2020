@@ -11,7 +11,7 @@ def draw_school(height=0):
     print(" | [ ]      [ ] |")
     
     for i in range(height):
-        if (i + 1) % 2 == 0 and i != 0:
+        if i % 2 != 0:
             print(" | [ ]      [ ] |")
         else:
             print(" |              |")
